@@ -14,7 +14,7 @@ function NumberOfProducts(C,W,Cof){
             console.log("\nERROR INPUT")
         }
         else{
-        console.log("Total Cost of the products is: " + TotalCost + " Tk");
+        console.log("Total Cost of the products is: " + TotalCost + " Taka");
     }
 }
 
