@@ -89,11 +89,11 @@ function SavingYear(year) {
 
     if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
         let TotalSaving = 366 * 10;    
-        console.log("You saved " + TotalSaving + "Tk in " + year + ".");        
+        console.log("You saved " + TotalSaving + "Taka in " + year + ".");        
     } 
     else {
         let TotalSaving = 365 * 10;      
-        console.log("You saved " + TotalSaving + "Tk in " + year + ".");
+        console.log("You saved " + TotalSaving + "Taka in " + year + ".");
     }
 
 }
